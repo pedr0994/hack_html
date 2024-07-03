@@ -1,0 +1,109 @@
+* {
+    font-family: Arimo;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start; 
+    align-items:center;
+}
+
+.circle {
+    background-color: #7ED957;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+
+.linea p {
+    margin: 20px;
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.soluciones {
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.section1 {
+    background-image: url(../img/2.png);
+    background-position: center;
+    padding: 15% 2%;
+}
+
+.green {
+        background-color: #00BF63;
+        color: white;
+        font-size: 1.8em;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: auto;
+        padding: 0.5% 4%;
+
+}
+
+.black1 {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.5% 4%;
+}
+.black2 {
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0.5% 4%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0.5% 4%;
+}
+
+.soluciones {
+    width: 100%;
+}
+.soluciones h1 {
+    font-size: 2em;
+}
+
+.soluciones h2 {
+    font-size: 1.2em;
+    margin-top: -30px;
+}
+
+
+.material {
+    width: 33.33%;
+}
+
+.material span{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.material p {
+    width: 85%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #00BF63;
+    color: #EEEEEE;
+    padding: 5px 10%;
+    font-size: 1.3em;
+    margin: 1% 2%;
+}

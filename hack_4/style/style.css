@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+
+.padre{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.ruda{
+    font-family: "ruda", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.line{
+    background-color: black;
+    width: 100px;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.end{
+    padding-top: 35px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.sale{
+    color: #B88940;
+    font-size: 100px;
+    letter-spacing: 15px;
+}
+
+.off{
+    font-size: 50px;
+}
+
+.lorem{
+    padding-top: 20px;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+.padre2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.price{
+    text-align: center;
+    font-size: 18px;
+}
+
+img{
+    padding: 5px;
+}
+
+.franja1{
+    background-color: #FFBD59;
+    width: 95%;
+    height: 30px;
+    margin-top: -30px;
+    position: absolute;
+    top: 18%;
+    z-index: -1;
+}
+
+.franja2{
+    background-color: #FFBD59;
+    width: 95%;
+    height: 30px;
+    margin-top: -5px;
+    position: absolute;
+    top: 30%;
+    z-index: -1;
+}
+
+.franja3{
+    background-color: #FFBD59;
+    width: 95%;
+    height: 30px;
+    margin-top: 20px;
+    position: absolute;
+    top: 42%;
+    z-index: -1;
+}
+
+.franja4{
+    background-color: #FFBD59;
+    width: 95%;
+    height: 30px;
+    margin-top: 40px;
+    position: absolute;
+    top: 54%;
+    z-index: -1;
+}
+
+.your{
+    color:#B88940;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.lorem2{
+    padding-top: 20px;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 80px;
+}
